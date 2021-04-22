@@ -35,12 +35,9 @@ export const routes: Routes = [
       lang: 'es',
       links: [
         { path: 'inicio', label: 'Inicio' },
-        { path: 'aplica-ahora', label: 'Aplica ahora' },
-        { path: 'nosotros', label: 'Nosotros' },
-        { path: 'aliados', label: 'Aliados' },
-        { path: 'patrocinadores', label: 'Patrocinadores' },
-        { path: 'faq', label: 'FAQ' },
-        { path: 'donaciones', label: 'Donaciones' },
+        { path: 'mi-historia', label: 'Mi historia' },
+        { path: 'blog', label: 'Blog' },
+        { path: 'subscribete', label: 'Subscríbete' },
       ],
     },
     children: [
