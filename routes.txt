@@ -5,8 +5,6 @@ en/allies
 en/sponsors
 en/donations
 es/inicio
-es/aplica-ahora
-es/nosotros
-es/aliados
-es/patrocinadores
-es/donaciones
+es/mi-historia
+es/blog
+es/subscribete
