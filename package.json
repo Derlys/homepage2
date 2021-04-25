@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng run web:prerender --routesFile routes.txt && ng deploy web --no-build --repo=http://github.com/Derlys/homepage2.git --name=obrero --email=deploy@mododificildevs.dev",
+    "deploy": "ng run web:prerender --routesFile routes.txt && ng deploy web --no-build --repo=https://github.com/Derlys/homepage2.git --name=obrero --email=deploy@mododificildevs.dev",
     "dev:ssr": "ng run web:serve-ssr",
     "serve:ssr": "node dist/web/server/main.js",
     "build:ssr": "ng build --prod && ng run web:server:production",
