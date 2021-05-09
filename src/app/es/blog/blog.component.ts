@@ -16,6 +16,6 @@ export class BlogComponent implements OnInit {
   ]
 
   public ngOnInit(): void {
-    this.ui.setMetaData({ title: 'Nosotros' })
+    this.ui.setMetaData({ title: 'Blog' })
   }
 }

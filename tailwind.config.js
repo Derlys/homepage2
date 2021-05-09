@@ -28,6 +28,9 @@ module.exports = (isProd) => ({
       '6xl': '4.3rem',
       '7xl': '5rem',
     },
+    colors: {
+      blue: '#04668d',
+    },
     extend: {
       width: {
         71: '20rem',

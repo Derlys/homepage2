@@ -10,8 +10,8 @@ interface MetaDataConfig {
 @Injectable()
 export class UiService {
   private appColor = '#343a40'
-  private appImage = '/assets/logo.png'
-  private appTitle = 'BeeSoft Labs'
+  private appImage = '/assets/images/logo1.png'
+  private appTitle = 'Modo Difícil devs'
   private appDescription = 'Changing lives through code!'
 
   constructor(public readonly meta: Meta, private readonly title: Title) {}
