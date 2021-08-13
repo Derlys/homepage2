@@ -12,6 +12,7 @@ import { UiModule } from './ui/ui.module'
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     RouterModule.forRoot(routes, {
       initialNavigation: 'enabled',
+      relativeLinkResolution: 'legacy',
     }),
     UiModule,
   ],
